@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+html{
+  direction: rtl;
+}
+
+section{
+  background:url(./images/bg.jpg) ;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-position:center center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  
+}
+section .container{
+  width: 650px;
+  background: #332a224e;
+  padding: 30px 25px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid #d7d7d74e;
+  margin-right: 15%;
+  margin-top:30px;
+  margin-bottom:30px;
+
+}
+
+section .top-sec{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #d7d7d74e;
+  
+}
+section .top-sec select{
+  width: 250px;
+  border-radius: 5px;
+  outline: none;
+  background: #a54f3a;
+  padding:2px 10px;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 10px;
+}
+section .top-sec h3{
+  font-size: 26px;
+  color: white;
+}
+section .top-sec .data{
+  width: 250px;
+}
+section .top-sec .data h4{
+  font-size: 26px;
+  color: #fff;
+}
+section .prayer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  background: #c0583e75;
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 1px solid #c0583e75;
+}
+
+@media (max-width:793px) {
+  section .container{
+    width: 620px;
+    margin-left: 20%;
+    margin: auto;
+  }
+  
+}
+@media (max-width:673px) {
+  section .container{
+    width: 608px;
+    margin: 10px 20px;
+
+
+  }
+  
+}
+
+@media (max-width:600px) {
+  section .container{
+    margin: auto;
+  }
+  section .top-sec .data{
+    margin-right: 20px;
+  }
+  
+}
+@media (max-width:586px) {
+  section .container{
+    margin: auto;
+
+
+  }
+  
+}
