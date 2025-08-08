@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Prayer from "./component/prayer";
+import Prayer from "./components/Prayer";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {

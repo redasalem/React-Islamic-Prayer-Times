@@ -1,5 +1,5 @@
 
-export default function prayer({Name,time}) {
+export default function Prayer({Name,time}) {
   return (
     <div className="prayer">
         <p className="name_prayer">{Name}</p>
