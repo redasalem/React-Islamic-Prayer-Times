@@ -6,7 +6,7 @@ function App() {
   let [dataapi,setdataApi]=useState({});
   let [Time,setTime]=useState("");
   let [loading, setLoading] = useState(true);
-  let [city, setcity] = useState("cairo");
+  let [city, setcity] = useState("Cairo");
 
 
   const cities=[

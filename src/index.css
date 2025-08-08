@@ -10,7 +10,7 @@ html{
 }
 
 section{
-  background:url(./images/bg.jpg) ;
+  background:url(src/images/bg.jpg) ;
   min-height: 100vh;
   background-size: 100% 100%;
   background-position:center center;
